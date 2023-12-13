@@ -5,34 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/nieve"
-    tools:context=".MainActivity">
+    tools:context=".Descuento">
 
     <TextView
-        android:id="@+id/textView22"
-        android:layout_width="97dp"
-        android:layout_height="33dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="392dp"
-        android:text="AÑO "
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="382dp"
-        android:layout_height="38dp"
-        android:layout_marginStart="104dp"
+        android:id="@+id/textView31"
+        android:layout_width="395dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="84dp"
         android:layout_marginTop="16dp"
-        android:text="Matricula en AutoTron"
+        android:text="A PAGAR SEGUN LA LEY"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView14"
+        android:id="@+id/textView32"
         android:layout_width="110dp"
         android:layout_height="34dp"
         android:layout_marginStart="36dp"
@@ -44,7 +32,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView15"
+        android:id="@+id/textView33"
         android:layout_width="61dp"
         android:layout_height="32dp"
         android:layout_marginStart="236dp"
@@ -55,17 +43,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Spinner
-        android:id="@+id/cbxTipo"
-        android:layout_width="276dp"
-        android:layout_height="65dp"
-        android:layout_marginTop="124dp"
-        android:layout_marginEnd="24dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <EditText
+        android:id="@+id/txttipo4"
+        android:layout_width="270dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="232dp"
+        android:layout_marginTop="116dp"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="c" />
 
     <EditText
-        android:id="@+id/txtcedula2"
+        android:id="@+id/txtcedula4"
         android:layout_width="218dp"
         android:layout_height="54dp"
         android:layout_marginStart="16dp"
@@ -77,43 +68,19 @@
         tools:text="c" />
 
     <TextView
-        android:id="@+id/textView16"
-        android:layout_width="327dp"
-        android:layout_height="34dp"
+        android:id="@+id/textView34"
+        android:layout_width="168dp"
+        android:layout_height="38dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="196dp"
-        android:text="PROPIETARIOS"
+        android:text="PROPIETARIO"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/txtnombre2"
-        android:layout_width="243dp"
-        android:layout_height="66dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="236dp"
-        android:ems="10"
-        android:inputType="text"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:text="c" />
-
-    <EditText
-        android:id="@+id/txtprecio2"
-        android:layout_width="270dp"
-        android:layout_height="79dp"
-        android:layout_marginStart="264dp"
-        android:layout_marginTop="260dp"
-        android:ems="10"
-        android:inputType="text"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:text="c" />
-
     <TextView
-        android:id="@+id/textView17"
+        android:id="@+id/textView35"
         android:layout_width="90dp"
         android:layout_height="33dp"
         android:layout_marginStart="272dp"
@@ -125,7 +92,43 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/txtmatricula2"
+        android:id="@+id/txtprecio4"
+        android:layout_width="270dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="260dp"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="c" />
+
+    <EditText
+        android:id="@+id/txtnombre4"
+        android:layout_width="243dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="236dp"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="c" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="199dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="304dp"
+        android:text="A PAGAR POR #"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtmatricula4"
         android:layout_width="229dp"
         android:layout_height="51dp"
         android:layout_marginStart="24dp"
@@ -137,22 +140,22 @@
         tools:text="c" />
 
     <TextView
-        android:id="@+id/textView18"
-        android:layout_width="97dp"
-        android:layout_height="33dp"
+        android:id="@+id/textView37"
+        android:layout_width="178dp"
+        android:layout_height="32dp"
         android:layout_marginStart="276dp"
         android:layout_marginTop="340dp"
-        android:text="MULTAS"
+        android:text="PAGAR MULTA"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/txtmultas2"
+        android:id="@+id/txtmultas4"
         android:layout_width="270dp"
         android:layout_height="79dp"
-        android:layout_marginStart="272dp"
+        android:layout_marginStart="236dp"
         android:layout_marginTop="380dp"
         android:ems="10"
         android:inputType="text"
@@ -161,75 +164,59 @@
         tools:text="c" />
 
     <TextView
-        android:id="@+id/txtEltotal"
-        android:layout_width="97dp"
-        android:layout_height="33dp"
-        android:layout_marginStart="272dp"
-        android:layout_marginTop="456dp"
-        android:text="TOTAL"
+        android:id="@+id/textView38"
+        android:layout_width="189dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="416dp"
+        android:text="VALOR POR AÑO"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/txttotal2"
+        android:id="@+id/txtanio4"
         android:layout_width="270dp"
         android:layout_height="79dp"
-        android:layout_marginStart="264dp"
-        android:layout_marginTop="488dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="444dp"
         android:ems="10"
         android:inputType="text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:text="c" />
 
-    <Button
-        android:id="@+id/bttsiguiente2"
-        android:layout_width="159dp"
-        android:layout_height="66dp"
-        android:layout_marginStart="296dp"
-        android:layout_marginTop="576dp"
-        android:text="CONTINUAR"
+    <EditText
+        android:id="@+id/txttotal4"
+        android:layout_width="270dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="668dp"
+        android:ems="10"
+        android:inputType="text"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Spinner
-        android:id="@+id/cbxcolor"
-        android:layout_width="251dp"
-        android:layout_height="41dp"
-        android:layout_marginTop="628dp"
-        android:layout_marginEnd="280dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="c" />
 
     <TextView
-        android:id="@+id/textView19"
-        android:layout_width="87dp"
-        android:layout_height="35dp"
+        android:id="@+id/txtEltotal4"
+        android:layout_width="97dp"
+        android:layout_height="33dp"
         android:layout_marginStart="12dp"
-        android:layout_marginTop="596dp"
-        android:text="COLOR"
+        android:layout_marginTop="628dp"
+        android:text="TOTAL"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Spinner
-        android:id="@+id/cbxmarca"
-        android:layout_width="240dp"
-        android:layout_height="41dp"
-        android:layout_marginTop="544dp"
-        android:layout_marginEnd="280dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <TextView
-        android:id="@+id/textView20"
+        android:id="@+id/textView39"
         android:layout_width="96dp"
         android:layout_height="33dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="504dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="520dp"
         android:text="MARCA"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -237,11 +224,23 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/txtanio2"
+        android:id="@+id/txtmarca4"
         android:layout_width="270dp"
         android:layout_height="79dp"
         android:layout_marginStart="4dp"
-        android:layout_marginTop="428dp"
+        android:layout_marginTop="552dp"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="c" />
+
+    <EditText
+        android:id="@+id/txtcolor4"
+        android:layout_width="270dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="252dp"
+        android:layout_marginTop="508dp"
         android:ems="10"
         android:inputType="text"
         app:layout_constraintStart_toStartOf="parent"
@@ -249,14 +248,24 @@
         tools:text="c" />
 
     <TextView
-        android:id="@+id/textView21"
-        android:layout_width="199dp"
-        android:layout_height="36dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="304dp"
-        android:text="# DE MATRICULA"
+        android:id="@+id/textView40"
+        android:layout_width="87dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="272dp"
+        android:layout_marginTop="476dp"
+        android:text="COLOR"
         android:textSize="24sp"
         android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bttsiguiente4"
+        android:layout_width="159dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="296dp"
+        android:layout_marginTop="600dp"
+        android:text="REGRESAR"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

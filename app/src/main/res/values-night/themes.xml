@@ -2,6 +2,8 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.PrimeraParcial" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">#02AAF6</item>
+        <item name="colorSecondary">#00389A</item>
+        <item name="colorTertiary">#B893FA</item>
     </style>
 </resources>
